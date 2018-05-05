@@ -1,0 +1,13 @@
+Reflex -
+python pacman.py -p ReflexAgent -k 1
+
+Minimax -
+python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
+python pacman.py -p MinimaxAgent -l smallClassic -a depth=2
+
+Alpha Beta -
+python pacman.py -p AlphaBetaAgent -a depth=2 -l smallClassic
+
+Expectimax -
+python pacman.py -p AlphaBetaAgent -a depth=2 -l smallClassic
+
