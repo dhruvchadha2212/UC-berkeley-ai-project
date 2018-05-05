@@ -1,0 +1,7 @@
+BFS-
+python2.7 pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
+
+A*-
+python pacman.py -l trickySearch -p AStarFoodSearchAgent
+
+
