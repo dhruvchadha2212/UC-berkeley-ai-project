@@ -1,0 +1,10 @@
+Exact Inference -
+python autograder.py -q q3
+
+Approximate Inference (Particle Filters one by one)-
+python autograder.py -t test_cases/q5/5-ParticleElapse
+python autograder.py -t test_cases/q5/6-ParticleElapse
+
+Joint Particle Filter -
+python2.7 autograder.py -t test_cases/q7/3-JointParticleObserveElapse
+
