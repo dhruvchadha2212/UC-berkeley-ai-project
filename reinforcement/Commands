@@ -1,0 +1,15 @@
+Value Iteration -
+python2.7 gridworld.py -a value -i 1 && python2.7 gridworld.py -a value -i 2 && python2.7 gridworld.py -a value -i 3 && python2.7 gridworld.py -a value -i 4 && python2.7 gridworld.py -a value -i 5
+
+Q-Learning -
+python gridworld.py -a q -k 5 -m
+
+Epsilon Greedy -
+python gridworld.py -a q -k 100
+python crawler.py
+
+Q-Learning and Pacman -
+python pacman.py -p PacmanQAgent -n 10 -l smallGrid -a numTraining=10
+python pacman.py -p PacmanQAgent -x 2000 -n 2010 -l smallGrid
+
+
